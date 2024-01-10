@@ -10,13 +10,13 @@ filename = 'login_data'
 # Authorization token on the market
 headers = {
     "accept": "application/json",
-    "authorization": "Bearer 0c8e59d74f79e2ad33d4aa2415fa17bbae6ff54f"
+    "authorization": "Bearer "
 }
 
 # Counter
 counter = 0
 
-bot = Bot("6929116139:AAGMUHoYuUFnLtbfYUOXqF1QFKX39aSPWvs")
+bot = Bot("")
 dp = Dispatcher()
 
 target_chat_id = 930429616
